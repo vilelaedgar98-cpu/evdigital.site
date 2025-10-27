@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — E.V.Digital-Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">E.V.Digital-Solutions</div>
+    <nav class="nav">
+      <a href="index.html#home">Accueil</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#work">Réalisations</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section contact-page">
+      <div class="container narrow">
+        <h1>Entrons en contact</h1>
+        <p>Pour un devis, un partenariat ou plus d’informations, envoyez-nous un message — nous répondons rapidement.</p>
+
+        <form id="contactForm" class="contact-form">
+          <label for="name">Nom</label>
+          <input id="name" name="name" type="text" placeholder="Votre nom" required>
+
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="votre@exemple.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Décrivez votre projet..." required></textarea>
+
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+
+        <p class="small">Ou écrivez-nous directement : <a class="email-link" href="mailto:digitalsolution.ev@gmail.com">digitalsolution.ev@gmail.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>© 2025 E.V.Digital-Solutions — Tous droits réservés.</div>
+    <div><a class="email-link" href="mailto:digitalsolution.ev@gmail.com">digitalsolution.ev@gmail.com</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

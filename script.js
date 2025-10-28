@@ -26,7 +26,7 @@ portfolioBtns.forEach(b=>{
     // Default: open external link in new tab. Modify href directly in HTML to your portfolio URL.
     // For now prevent default and open placeholder
     e.preventDefault();
-    const url = '#'; // replace # by your portfolio URL
+    const url = 'https://www.behance.net/a407f34e'; // replace # by your portfolio URL
     if(url && url !== '#') window.open(url, '_blank');
     else alert('Remplacez le lien du portfolio dans le fichier index.html par votre URL externe.');
   });

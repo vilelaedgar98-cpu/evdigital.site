@@ -47,3 +47,22 @@ if(form){
     window.location.href = mailto;
   });
 }
+const form = document.getElementById("contactForm");
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const data = new FormData(form);
+
+  const response = await fetch(form.action, {
+    method: "POST",
+    body: data,
+    headers: { 'Accept': 'application/json' }
+  });
+
+  if (response.ok) {
+    alert("Votre message a bien été envoyé !");
+    form.reset();
+  } else {
+    alert("Une erreur s’est produite. Veuillez réessayer.");
+  }
+});

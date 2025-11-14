@@ -25,19 +25,23 @@
         <h1>Entrer en contact</h1>
         <p>Pour un devis, un partenariat ou plus d’informations, envoyez-nous un message — nous répondons rapidement.</p>
 
-        <form id="contactForm" class="contact-form">
-          <label for="name">Nom</label>
-          <input id="name" name="name" type="text" placeholder="Votre nom" required>
+       <form 
+  id="contactForm" 
+  class="contact-form" 
+  action="https://formspree.io/f/xovyjowk"
+  method="POST"
+>
+  <label for="name">Nom</label>
+  <input id="name" name="name" type="text" placeholder="Votre nom" required>
 
-          <label for="email">E-mail</label>
-          <input id="email" name="email" type="email" placeholder="votre@exemple.com" required>
+  <label for="email">E-mail</label>
+  <input id="email" name="email" type="email" placeholder="Votre@example.com" required>
 
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="6" placeholder="Décrivez votre projet..." required></textarea>
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="6" placeholder="Décrivez votre projet..." required></textarea>
 
-          <button type="submit" class="btn btn-primary">Envoyer</button>
-        </form>
-
+  <button type="submit" class="btn btn-primary">Envoyer</button>
+</form>
         <p class="small">Ou écrivez-nous directement : <a class="email-link" href="mailto:digitalsolution.ev@gmail.com">digitalsolution.ev@gmail.com</a></p>
       </div>
     </section>

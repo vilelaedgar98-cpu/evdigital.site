@@ -113,26 +113,34 @@ body{
   .hero h1{font-size:20px}
   .nav{flex-wrap:wrap;gap:8px}
 }
-body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
+/* PAGE SERVICES */
+.services-page {
   background-color: #000;
   color: #fff;
 }
-.services-page {
-  padding: 80px 10%;
+
+.services-section {
+  padding: 100px 20px;
+  text-align: center;
 }
 
-.service-block h1 {
-  margin-bottom: 40px;
+.services-section h1 {
+  color: #d4af37;
+  margin-bottom: 60px;
+}
+
+.service-block {
+  max-width: 900px;
+  margin: 0 auto 50px auto;
 }
 
 .service-block h2 {
-  color: #d4af37; /* doré */
-  margin-bottom: 10px;
+  color: #d4af37;
+  margin-bottom: 15px;
 }
 
 .service-block p {
   color: #ddd;
-  line-height: 1.6;
+  line-height: 1.7;
+  font-size: 16px;
 }
